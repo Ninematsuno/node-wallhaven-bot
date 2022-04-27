@@ -1,0 +1,4 @@
+TOKEN = '
+API_WALLHAVEN = '
+AUTH_USERS = '
+AUTH_CHATS = '
