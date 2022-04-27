@@ -271,10 +271,7 @@ function sendUnauthorizedMessage(msg) {
 }
 
 function init() {
-    if (config.TOKEN == undefined || config.API_WALLHAVEN == undefined || config.AUTH_USERS == undefined) {
-        console.log(new Error(`\n\nOne or more variables missing in config. Exiting..\n`));
-        process.exit(1);
-    } else {
+    if (config.TOKEN == undefined || config.API_WALLHAVEN == undefined || config.AUTH_USERS == undefined){{
         console.log(`\nBot is up and working! All variables are set.`);
     }
 };
